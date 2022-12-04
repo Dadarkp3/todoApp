@@ -52,6 +52,7 @@
     "semi": ["error", "always"],
     "react/jsx-uses-react": ["error"],
     "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error"
+    "simple-import-sort/exports": "error",
+    "@typescript-eslint/no-unused-vars": ["error"]
   }
 }
