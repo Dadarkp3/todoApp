@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import { View } from 'react-native';
-
-import { FormInput } from '../FormInput';
-import { NoTasksFound } from '../NoTasksFound';
-import { TaskTags } from '../TaskTags';
+import { FormInput } from '@components/FormInput';
+import { NoTasksFound } from '@components/NoTasksFound';
+import { TaskTags } from '@components/TaskTags';
 
 import { styles } from './styles';
 
