@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { View } from 'react-native';
+
 import { FormInput } from '@components/FormInput';
-import { NoTasksFound } from '@components/NoTasksFound';
+import { Task } from '@components/Task';
 import { TaskTags } from '@components/TaskTags';
 
 import { styles } from './styles';
@@ -24,7 +25,7 @@ export const Main = () => {
         <TaskTags text="Criadas" color="#4EA8DE" number="5" />
         <TaskTags text="Concluídas" color="#8284FA" number="1" />
       </View>
-      <NoTasksFound />
+      <Task />
     </View>
   );
 };

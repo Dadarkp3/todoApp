@@ -2,10 +2,13 @@ import { Image, Text, TouchableOpacity, View } from 'react-native';
 
 import { styles } from './styles';
 
-export const Taks = () => {
+export const Task = () => {
   return (
     <View style={styles.container}>
-      <View></View>
+      <TouchableOpacity
+        style={styles.circle}
+        onPress={() => console.log('Clicou')}
+      />
       <Text style={styles.title}>
         {
           'Integer urna interdum massa libero auctor neque turpis turpis semper.'
@@ -17,7 +20,7 @@ export const Taks = () => {
       >
         <Image
           style={styles.image}
-          source={require('../../../assets/images/plus.png')}
+          source={require('../../../assets/images/Trash.png')}
         />
       </TouchableOpacity>
     </View>

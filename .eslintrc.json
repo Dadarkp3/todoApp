@@ -26,6 +26,8 @@
               ["^react", "^@?\\w"],
               // Internal packages.
               ["^(@|components)(/.*|$)"],
+              // Internal packages
+              ["^(@components)(/.*|$)"],
               // Side effect imports.
               ["^\\u0000"],
               // Parent imports. Put `..` last.
