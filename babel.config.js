@@ -6,10 +6,8 @@ module.exports = function (api) {
       [
         'module-resolver',
         {
-          root: ['./src'],
-          extensions: ['.ios.js', '.android.js', '.js', '.ts', '.tsx', '.json'],
           alias: {
-            tests: ['./tests/'],
+            // This needs to be mirrored in tsconfig.json
             '@components': './src/components',
           },
         },
