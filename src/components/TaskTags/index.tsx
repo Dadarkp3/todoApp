@@ -5,7 +5,7 @@ import { styles } from './styles';
 type Props = {
   text: string;
   color: string;
-  number: string;
+  number: number;
 };
 
 export const TaskTags = ({ text, color, number }: Props) => {

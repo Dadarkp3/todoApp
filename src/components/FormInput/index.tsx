@@ -30,7 +30,7 @@ export const FormInput = ({
       >
         <Image
           style={styles.image}
-          source={require('../../../assets/images/Trash.png')}
+          source={require('../../../assets/images/plus.png')}
         />
       </TouchableOpacity>
     </View>

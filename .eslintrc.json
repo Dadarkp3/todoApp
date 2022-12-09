@@ -27,6 +27,7 @@
               // Internal packages.
               ["^(@|components)(/.*|$)"],
               // Internal packages
+              ["^(@models)(/.*|$)"],
               ["^(@components)(/.*|$)"],
               // Side effect imports.
               ["^\\u0000"],

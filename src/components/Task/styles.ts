@@ -8,15 +8,18 @@ export const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: '#262626',
     borderRadius: 8,
+    marginBottom: 12,
+    borderWidth: 1,
   },
   title: {
     flex: 1,
     color: '#F2F2F2',
+    fontSize: 14,
   },
   image: {
     width: 15,
     height: 20,
-    margin: 8,
+    margin: 6,
   },
   button: {},
   circle: {
@@ -26,5 +29,8 @@ export const styles = StyleSheet.create({
     height: 20,
     marginRight: 20,
     borderRadius: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
+  checked: {},
 });
